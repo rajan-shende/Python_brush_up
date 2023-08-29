@@ -32,7 +32,7 @@ print(sample.ljust(17, "*"))
 print(sample.center(16, "+"))
 print(sample.lstrip("North"))
 print(sample.center(16, "+").rstrip("+"))
-print(sample.center(16,"+").strip("+"))
+print(sample.center(16, "+").strip("+"))
 print(sample.replace("North", "South"))
 
 # len() returns length of string
